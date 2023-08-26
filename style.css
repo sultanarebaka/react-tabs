@@ -10,3 +10,10 @@ body{
     background-color: #DEF5E5;
     border: 1px solid #e5e5e5;
   }
+
+tab{
+  min-height:50px;
+  width:100%;
+  padding:25px;
+  font-family:sans-serif;
+}
