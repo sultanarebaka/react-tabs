@@ -1,0 +1,12 @@
+
+body{
+    background-color:#BCEAD5;
+
+}
+  
+  #app{
+    border-radius:3px;
+    margin:15px;
+    background-color: #DEF5E5;
+    border: 1px solid #e5e5e5;
+  }
