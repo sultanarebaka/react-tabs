@@ -24,3 +24,11 @@ this.props.children[this.state.selected];
 
 <li>
 onClick={this.handleChange.bind(this,index)}>{elem.props.title}</li>
+
+
+
+
+<Panel title="first">This is the first panel</Panel>
+        <Panel title="second">This is the second panel</Panel>
+        <Panel title="third">This is the third panel</Panel>
+      
