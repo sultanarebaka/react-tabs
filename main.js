@@ -10,3 +10,5 @@
 
 
 </div>
+
+<li className={style} key={index}</li>
