@@ -12,3 +12,6 @@
 </div>
 
 <li className={style} key={index}</li>
+
+
+this.props.children[this.state.selected];
