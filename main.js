@@ -1,4 +1,5 @@
-const Tabs = React.createClass({
+
+ Tabs = React.createClass({
     getInitialState(){
 
     }
@@ -6,3 +7,6 @@ const Tabs = React.createClass({
 
 <div>
       <ul className="inline">
+
+
+</div>
