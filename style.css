@@ -17,4 +17,8 @@ body{
     padding:10px;
     border-bottom:2px solid #eee;
     transition: all .5s;
-  }
+    font-weight:300;
+    cursor:pointer;
+    color:#aaa;
+
+}
