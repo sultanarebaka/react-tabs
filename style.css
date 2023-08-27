@@ -11,17 +11,10 @@ body{
     border: 1px solid #e5e5e5;
   }
 
-.tab{
-  min-height:50px;
-  width:100%;
-  padding:25px;
-  font-family:sans-serif;
-}
-
-ul.inline{
-  list-style:none;
-  padding: 0;
-  margin-bottom:0;
-  
-
-}
+  li{
+    display:inline-block;
+    margin-left:0;
+    padding:10px;
+    border-bottom:2px solid #eee;
+    transition: all .5s;
+  }
