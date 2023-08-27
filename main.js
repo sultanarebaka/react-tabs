@@ -15,3 +15,6 @@
 
 
 this.props.children[this.state.selected];
+
+
+<li>{elem.props.title}</li>
