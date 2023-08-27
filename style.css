@@ -13,6 +13,9 @@ body{
 
   li{
     display:inline-block;
+    left:0;
+    background-color:yellow;          
+
     margin-left:0;
     padding:10px;
     border-bottom:2px solid #eee;
@@ -20,7 +23,7 @@ body{
     font-weight:300;
     cursor:pointer;
     color:#aaa;
-
+  
 }
 
 ul.inline{
