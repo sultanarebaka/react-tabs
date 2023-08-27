@@ -4,3 +4,5 @@ const Tabs = React.createClass({
     }
 })
 
+<div>
+      <ul className="inline">
