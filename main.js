@@ -18,3 +18,9 @@ this.props.children[this.state.selected];
 
 
 <li>{elem.props.title}</li>
+
+
+
+
+<li>
+onClick={this.handleChange.bind(this,index)}>{elem.props.title}</li>
