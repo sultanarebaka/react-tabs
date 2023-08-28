@@ -1,4 +1,7 @@
 
+
+
+
  Tabs = React.createClass({
     getInitialState(){
 
@@ -41,3 +44,12 @@ handleChange(index){
 
 (index).selected:
 tabs.setindex();
+
+
+
+const render = React.createClass({
+  getState(){
+
+
+selected.this.props;
+}
