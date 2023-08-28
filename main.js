@@ -38,3 +38,5 @@ React.render(<App/>,document.querySelector('#app'));
 handleChange(index){
       this.setState({selected:index})
     }
+
+(index).selected:
