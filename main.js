@@ -53,3 +53,5 @@ const render = React.createClass({
 
 selected.this.props;
 }
+
+<li> className={style} key={index} onClick={this.handleChange.bind(this,index)}</li>
