@@ -34,3 +34,7 @@ onClick={this.handleChange.bind(this,index)}>{elem.props.title}</li>
       
 
 React.render(<App/>,document.querySelector('#app'));
+
+handleChange(index){
+      this.setState({selected:index})
+    }
