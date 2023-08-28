@@ -40,3 +40,4 @@ handleChange(index){
     }
 
 (index).selected:
+tabs.setindex();
