@@ -2,7 +2,7 @@
 
 
 
- Tabs = React.createClass({
+Tabs = React.createClass({
     getInitialState(){
 
     }
@@ -55,3 +55,6 @@ selected.this.props;
 }
 
 <li> className={style} key={index} onClick={this.handleChange.bind(this,index)}</li>
+
+
+let style = index == this.state.selected ? 'selected': '';
