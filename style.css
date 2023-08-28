@@ -32,3 +32,9 @@ ul.inline{
   margin-bottom:0;
 
 }
+
+&.selected{
+      border-bottom:2px solid red;
+      color:#444;
+    }
+  
