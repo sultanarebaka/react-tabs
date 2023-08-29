@@ -68,3 +68,7 @@ selected:this.props.selected || 0;
 render(){
     return (<div>
       <ul className="inline">
+
+<li>
+
+onClick={this.handleChange.bind(this,index)}>{elem.props.title}</li>
