@@ -80,3 +80,10 @@ React.render(<App/>,document.querySelector('#app'));
 
 
 onClick={this.handleChange.bind(this,index)}>{elem.props.title};
+
+
+
+const App = React.createClass({
+  render(){
+    return (
+      <Tabs selected={1}>
