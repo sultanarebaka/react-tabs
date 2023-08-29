@@ -76,4 +76,7 @@ onClick={this.handleChange.bind(this,index)}>{elem.props.title}</li>
 
 
 
-React.render(<App/>,document.querySelector('#app'))
+React.render(<App/>,document.querySelector('#app'));
+
+
+onClick={this.handleChange.bind(this,index)}>{elem.props.title};
