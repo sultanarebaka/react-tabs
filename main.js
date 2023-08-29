@@ -62,3 +62,9 @@ let style = index == this.state.selected ? 'selected': '';
 
 
 selected:this.props.selected || 0;
+
+
+
+render(){
+    return (<div>
+      <ul className="inline">
