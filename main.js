@@ -58,3 +58,7 @@ selected.this.props;
 
 
 let style = index == this.state.selected ? 'selected': '';
+
+
+
+selected:this.props.selected || 0;
