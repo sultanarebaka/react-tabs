@@ -37,11 +37,6 @@ onClick={this.handleChange.bind(this,index)}>{elem.props.title}</li>
       
 
 React.render(<App/>,document.querySelector('#app'));
-
-handleChange(index){
-      this.setState({selected:index})
-    }
-
 (index).selected:
 tabs.setindex();
 
@@ -74,7 +69,10 @@ render(){
 onClick={this.handleChange.bind(this,index)}>{elem.props.title}</li>
 
 
-
+const Panel = React.createClass({
+  render(){
+    return <div>{this.props.children}</div>
+  })
 
 React.render(<App/>,document.querySelector('#app'));
 
