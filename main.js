@@ -85,3 +85,6 @@ const App = React.createClass({
   render(){
     return (
       <Tabs selected={1}>
+
+return <li className={style} key={index} onClick={this.handleChange.bind(this,index)}>{elem.props.title}</li>
+        })}
