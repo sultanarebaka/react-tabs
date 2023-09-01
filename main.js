@@ -96,3 +96,11 @@ const App = React.createClass({
   }
 })
 React.render(<App/>,document.querySelector('#app'));
+
+
+
+this.props.children.map((elem,index)=>{
+          let style = index == this.state.selected ? 'selected': '';
+         return <li className={style} key={index} onClick={this.handleChange.bind(this,index)}>{elem.props.title}</li>
+        })}
+      </ul>
