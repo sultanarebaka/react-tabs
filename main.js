@@ -76,6 +76,11 @@ const Panel = React.createClass({
 
 React.render(<App/>,document.querySelector('#app'));
 
+const Panel = React.createClass({
+  render(){
+    return <div>{this.props.children}</div>
+  }
+})
 
 onClick={this.handleChange.bind(this,index)}>{elem.props.title};
 
