@@ -1,82 +1,19 @@
 
-
-
-
-Tabs = React.createClass({
-    getInitialState(){
-
+const Tabs = React.createClass({
+  getInitialState(){
+    return {
+      selected:this.props.selected || 0
     }
-})
-
-<div>
-      <ul className="inline">
-
-
-</div>
-
-<li className={style} key={index}</li>
-
-
-this.props.children[this.state.selected];
-
-
-<li>{elem.props.title}</li>
-
-
-
-
-<li>
-onClick={this.handleChange.bind(this,index)}>{elem.props.title}</li>
-
-
-
-<div className="tab">{this.props.children[this.state.selected]}</div>
-      </div>
-    )
   },
-    handleChange(index){
-      this.setState({selected:index})
-    }
-})
-
-
-
-React.render(<App/>,document.querySelector('#app'));
-(index).selected:
-tabs.setindex();
-
-const render = React.createClass({
-  getState(){
-
-selected.this.props;
-}
-
-<li> className={style} key={index} onClick={this.handleChange.bind(this,index)}</li>
-
-let style = index == this.state.selected ? 'selected': '';
-selected:this.props.selected || 0;
-render(){
+  render(){
     return (<div>
       <ul className="inline">
-
-<li>
-
-onClick={this.handleChange.bind(this,index)}>{elem.props.title}</li>
-
-const Panel = React.createClass({
-  render(){
-    return <div>{this.props.children}</div>
-  })
-
-React.render(<App/>,document.querySelector('#app'));
-
-const Panel = React.createClass({
-  render(){
-    return <div>{this.props.children}</div>
-  }
-})
-
-onClick={this.handleChange.bind(this,index)}>{elem.props.title};
+        {this.props.children.map((elem,index)=>{
+          let style = index == this.state.selected ? 'selected': '';
+         return <li className={style} key={index} onClick={this.handleChange.bind(this,index)}>{elem.props.title}</li>
+        })}
+      </ul>
+    
 
 const App = React.createClass({
   render(){
@@ -89,12 +26,5 @@ const App = React.createClass({
     )
   }
 })
-React.render(<App/>,document.querySelector('#app'));
+React.render(<App/>,document.querySelector('#app'))
 
-
-
-this.props.children.map((elem,index)=>{
-          let style = index == this.state.selected ? 'selected': '';
-         return <li className={style} key={index} onClick={this.handleChange.bind(this,index)}>{elem.props.title}</li>
-        })}
-      </ul>
