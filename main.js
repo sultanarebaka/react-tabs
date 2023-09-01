@@ -30,36 +30,31 @@ onClick={this.handleChange.bind(this,index)}>{elem.props.title}</li>
 
 
 
+<div className="tab">{this.props.children[this.state.selected]}</div>
+      </div>
+    )
+  },
+    handleChange(index){
+      this.setState({selected:index})
+    }
+})
 
-<Panel title="first">This is the first panel</Panel>
-        <Panel title="second">This is the second panel</Panel>
-        <Panel title="third">This is the third panel</Panel>
-      
+
 
 React.render(<App/>,document.querySelector('#app'));
 (index).selected:
 tabs.setindex();
 
-
-
 const render = React.createClass({
   getState(){
-
 
 selected.this.props;
 }
 
 <li> className={style} key={index} onClick={this.handleChange.bind(this,index)}</li>
 
-
 let style = index == this.state.selected ? 'selected': '';
-
-
-
 selected:this.props.selected || 0;
-
-
-
 render(){
     return (<div>
       <ul className="inline">
@@ -67,7 +62,6 @@ render(){
 <li>
 
 onClick={this.handleChange.bind(this,index)}>{elem.props.title}</li>
-
 
 const Panel = React.createClass({
   render(){
