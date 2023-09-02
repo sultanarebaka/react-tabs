@@ -13,7 +13,20 @@ const Tabs = React.createClass({
          return <li className={style} key={index} onClick={this.handleChange.bind(this,index)}>{elem.props.title}</li>
         })}
       </ul>
-    
+      <div className="tab">{this.props.children[this.state.selected]}</div>
+      </div>
+    )
+  },
+    handleChange(index){
+      this.setState({selected:index})
+    }
+})
+
+const Panel = React.createClass({
+  render(){
+    return <div>{this.props.children}</div>
+  }
+})
 
 const App = React.createClass({
   render(){
