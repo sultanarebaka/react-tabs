@@ -13,19 +13,21 @@ body{
 
   li{
     display:inline-block;
-    left:0;
     background-color:yellow;          
 
     margin-left:0;
     padding:10px;
-    border-bottom:2px solid #eee;
+    border-bottom:2px solid yellow;
     transition: all .5s;
     font-weight:300;
     cursor:pointer;
-    color:#aaa;
+    color:black;
   
 }
-
+&.selected{
+      border-bottom:1px solid #337ab7;
+      color:#444;
+    }
 ul.inline{
   list-style:none;
   padding: 0;
@@ -33,8 +35,4 @@ ul.inline{
 
 }
 
-&.selected{
-      border-bottom:2px solid red;
-      color:#444;
-    }
   
